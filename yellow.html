@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent">
+        <h1>PARENT ELEMEN</h1>
+        <p>Children 1</p>
+        <p>Children 2</p>
+    </div>
+    <script>
+        const parent = document.getElementById("parent");
+        //akses parent
+        console.log("Parent Node Name : ", parent.parentNode.nodeName);
+        console.log("Ali C0hild Nodes : ", parent.childNodes); 
+        console.log("Only Element Children : ", parent.chidlren);
+        console.log("First Child : ", parent.firstchild);
+        console.log("First Element Child : ", parent.firstElementChild) 
+    </script>
+</body>
+</html>
